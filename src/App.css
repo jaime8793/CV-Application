@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+/* App.css */
+.custom-button {
+  background-color: #1d4ed8; /* Custom color */
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
